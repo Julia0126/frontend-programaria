@@ -15,7 +15,6 @@ export function Content() {
   const [imagem, setImagem] = useState('')
   const [success, setSuccess] = useState(false)
   const baseURL = 'https://backend-programaria-gp5l.onrender.com/mulheres'
-
   useEffect(() => {
     async function getData() {
       const response = await Axios.get(baseURL)
@@ -63,7 +62,7 @@ export function Content() {
     setImagem('')
     setCitacao('')
   }
-
+  
   return (
     <>
       <Header
