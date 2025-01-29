@@ -41,9 +41,26 @@ Siga os passos abaixo para rodar o projeto na sua máquina:
 ### Passo a Passo  
 
 1. **Clone o repositório**:  
-   ```bash
+   ```
    git clone https://github.com/Julia0126/frontend-programaria.git
    cd frontend-programaria
+   ```
+2. **Instale as dependências**:
+  ```
+  npm install
+   ```
+  
+3. **Configure as variáveis de ambiente**:
+Crie um arquivo .env na raiz do projeto e adicione as seguintes variáveis:
+  ```
+  REACT_APP_API_URL=http://localhost:5000
+  ```
+4. **Inicie o servidor de desenvolvimento**:
+  ```
+  npm start
+  ```
+5. **Acesse o projeto**:
+  Abra o navegador e acesse http://localhost:3000.
 
 ## Screenshots 📸📸
 
